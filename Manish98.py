@@ -7,3 +7,11 @@ while True:
     break
   else:
     print("Invalid username or password")
+print("Now. User can perform operations")
+
+def leap_year(year):
+  if ((year%100!= 0 and year%4 == 0) or year%400 == 0):
+    print(f"{year} is Leap year")
+  else:
+    print(f"{year} is not a Leap year")
+leap_year(2024)
